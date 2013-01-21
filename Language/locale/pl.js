@@ -9,9 +9,9 @@ if(typeof VMM != 'undefined') {
 
         date: {
             month: ["Styczeń", "Luty", "Marzec", "Kwiecień", "Maj", "Czerwiec", "Lipiec", "Sierpień", "Wrzesień", "Październik", "Listopad", "Grudzień"],
-            month_abbr: ["Sty.", "Lut.", "Mar.", "Kwi.", "Maj.", "Cze.", "Lip.", "Sie.", "Wrz.", "Paź.", "Lis.", "Gru."],
+            month_abbr: ["Sty", "Lut", "Mar", "Kwi", "Maj", "Cze", "Lip", "Sie", "Wrz", "Paź", "Lis", "Gru"],
             day: ["Niedziela","Poniedziałek", "Wtorek", "Środa", "Czwartek", "Piątek", "Sobota"],
-            day_abbr: ["Nie.", "Pon.","Wto.", "Śro.", "Czw.", "Pią.", "Sob."]
+            day_abbr: ["Nie", "Pon","Wt", "Śr", "Czw", "Pt", "Sob"]
         }, 
         dateformats: {
             year: "yyyy",
@@ -25,13 +25,13 @@ if(typeof VMM != 'undefined') {
             full_long_small_date: "HH:MM'<br/><small>'dddd',' d mmm yyyy'</small>'"
         },
         messages: {
-            loading_timeline: "Ładowanie Timeline... ",
-            return_to_title: "Wróć do tutułu",
-            expand_timeline: "Rozszerz Timeline",
-            contract_timeline: "Umowa Timeline",
+            loading_timeline: "Ładowanie osi czasu... ",
+            return_to_title: "Wróć do początku",
+            expand_timeline: "Przybliż oś czasu",
+            contract_timeline: "Oddal oś czasu",
             wikipedia: "Z Wikipedii, wolnej encyklopedii",
             loading_content: "Ładowanie zawartości",
-			loading: "Ładowanie"
+            loading: "Ładowanie"
         }
     }
 }
